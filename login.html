@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>info@cfs.com</title>
+    <style>
+      
+
+        h1{
+            background-color: rgb(14, 92, 7);
+            color: rgb(235, 189, 41);
+            padding: rem;
+        }
+        h2{
+            margin-top: 3rem;
+        }
+        form{
+        margin-left: 35rem;
+        
+        }
+
+
+            .testmo-img{
+                display: flex;
+            }
+            .questions{
+            margin-left: 40rem;
+            }
+
+              .faqs {
+            background-color:white;
+            /* color: #0f0a0dd3; */
+            width: 40%;
+          
+            margin: auto;
+            margin-top: 20px;
+            font-size: 20px;
+            margin-left: 30rem;
+        }
+       
+
+        .answer {
+            padding: 0px 18px;
+            margin-top: 10px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            margin-left: 30rem;
+        }
+        @media screen and (max-width: 768px) {
+           .all{ margin-left: 10px;
+            margin-right: 10px;
+           }
+            
+        }
+        .date:hover{
+            background-color: rgb(235, 189, 41); 
+        }
+        
+  
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: #131419; */
+  /* background: white; */
+  /* margin-left: 100rem; */
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  padding: 40px 40px 60px;
+  background: #131419;
+  /* background: rgb(235, 189, 41); ; */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form h2 {
+  color: #c7c7c7;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px
+}
+
+.form .input {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.form .input .inputBox {
+  margin-top: 20px;
+}
+
+.form .input .inputBox label {
+  display: block;
+  color: #868686;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.form .input .inputBox input {
+  width: 100%;
+  height: 50px;
+  background: #131419;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 18px;
+  color: #03a9f4;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.form .input .inputBox input[type="submit"]{
+  margin-top: 20px;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+   2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.form .input .inputBox input[type="submit"]:active{
+  color: #006c9c;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+  inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.form .input .inputBox input::placeholder{
+  color: #555;
+  font-size: 18px;
+}
+
+.forgot{
+  margin-top: 30px;
+  color: #555;
+}
+
+.forgot a{
+  color: #ff0047;
+}
+
+    
+    
+         
+        @media screen and (max-width: 760px){
+          .testmo-img{
+            display: grid;
+          }
+          .faqs{
+               margin-left: 0rem;
+               width: 100%;
+              
+          }
+          .answer{
+            margin-left: 0px;
+            width: 100%;
+                    }
+        }
+        
+            
+        
+    </style>
+  </head>
+  <body>
+    <header>
+        
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+          aria-controls="#navbarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"
+          >Lademy <span style="color: white;">CFS</span></a
+        >
+
+        <div class="collapse navbar-collapse"></div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" class="nav-link" href="./about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" class="nav-link" href="#">sevirces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" class="nav-link" href="#">contacts</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" class="nav-link" href="./faqs.html">faqs</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" class="nav-link" href="./courses.html">courses</a>
+            </li>
+          </ul>
+         <a class="btn menu-right-btn border" type="submit" href="#"> contact-us</a>
+         </div>
+      </nav>
+      <h1><center>LOGIN</center></h1>
+      <h2><center>LOGIN</center></h2>
+    
+
+
+
+ <div class="form">
+      <h2>Login</h2>
+      <div class="input">
+        <div class="inputBox">
+          <label for="">Username</label>
+          <input type="text" name="" placeholder="example@xyz.com">
+        </div>
+        <div class="inputBox">
+          <label for="">Password</label>
+          <input type="password" name="" placeholder="........">
+        </div>
+        <div class="inputBox">
+          <input type="submit" name="" value="Sign In">
+        </div>
+      </div>
+      <p class="forgot">Forgot Password? <a href="#">Click Here</a></p>
+    </div>
+
+
+
+
+      
+ 
+
+    <h3 class="testmo"><center>Our happy customers</center></h3>
+     
+          
+          <div class="testmo-img">
+            <div class="col-md-4">
+              <div class="d-flex flex-row">
+                <i class="fas fa-user-shield fa-3x m-2"></i>
+                <div class="d-flex flex-column">
+                  <h3 class="m-2">esther revaly</h3>
+                  <img src="./img/t2.jpg" alt="">
+                  <p class="m-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis rem non voluptatum alias aperiam! Pariatur optio deserunt aspernatur ullam molestias dicta vitae iusto. Quas, nesciunt?
+                  </p>
+                </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+              <div class="d-flex flex-row">
+                <i class="fas fa-user-shield fa-3x m-2"></i>
+                <div class="d-flex flex-column">
+                  <h3 class="m-2">ephya delma</h3>
+                  <img src="./img/t2.jpg" alt="">
+                  <p class="m-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis rem non voluptatum alias aperiam! Pariatur optio deserunt aspernatur ullam molestias dicta vitae iusto. Quas, nesciunt?
+                  </p>
+                </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+              <div class="d-flex flex-row">
+                <i class="fas fa-user-shield fa-3x m-2"></i>
+                <div class="d-flex flex-column">
+                  <h3 class="m-2">hermonsel selasi</h3>
+                  <img src="./img/t2.jpg" alt="">
+                  <p class="m-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis rem non voluptatum alias aperiam! Pariatur optio deserunt aspernatur ullam molestias dicta vitae iusto. Quas, nesciunt?
+                  </p>
+                </div>
+
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+   
+   
+    <footer>
+      <div class="section-5 text-center">
+        <h4 style="margin-top: 5%;">advocates</h4>
+        <h4 class="my-4">we've got you covered</h4>
+      </div>
+
+      <div class="form-inline justify-content-center">
+        <input type="text" name="email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2">
+        <input type="button" value="contact us" class="btn btn-danger px-4 py-2">
+      </div>
+
+      <div class="social" style="margin-top: 5%; font-size: 20px;">
+        <div class="d-flex flex-row justify-content-center">
+         <i class="fab fa-instagram m-2"></i>
+          <i class="fab fa-facebook-square m-2"></i>
+          <i class="fab fa-twitter m-2"></i>
+          <i class="fab fa-youtube m-2"></i>
+        </div>
+      </div>
+    </footer>
+
+
+<p class="copy"><center>&#169;2020LADEMY</center></p>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      window.sr =ScrollReveal({duration:5000});
+      sr.reveal('.site-content .d-flex');
+      sr.reveal('.section-1 .card');
+      sr.reveal('.section-2 .d-flex');
+      sr.reveal('.seaction-3 .d-flex');
+      sr.reveal('.container');
+      sr.reveal('.section-4 .col-md-7, .col-md-5');
+     
+    </script>
+
+     
+    <script>
+        var acc = document.getElementsByClassName("faqs");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight +
+                        "px";
+                };
+
+            });
+        }
+    </script>
+  </body>
+</html>
+
+
+
+
+
+ 
