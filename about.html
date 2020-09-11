@@ -19,6 +19,11 @@
         h2{
             margin-top: 3rem;
         }
+
+        .carousel-item img{
+          margin-left: 20rem;
+      
+        }
         .img{
             /* height: 50%; */
             width: 90%;
@@ -28,9 +33,13 @@
                 display: flex;
             }
          
-        @media screen and (max-width: 760px){
+        @media screen and (max-width: 500px){
           .testmo-img{
             display: grid;
+            margin-left: 0px;
+          }
+          .carousel-item img{
+            margin-left: 0px;
           }
         }
         
@@ -61,31 +70,118 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="./about.html">about</a>
+              <a class="nav-link" class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="#">sevirces</a>
+              <a class="nav-link" class="nav-link" href="#">Sevirces</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="#">contacts</a>
+              <a class="nav-link" class="nav-link" href="#">Contacts</a>
             </li>
               <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="./faqs.html">faqs</a>
+              <a class="nav-link" class="nav-link" href="./courses.html">Courses</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="./courses.html">courses</a>
+              <a class="nav-link" class="nav-link" href="./faqs.html">Faqs</a>
             </li>
           </ul>
-         <a class="btn menu-right-btn border" type="submit" href="#"> contact-us</a>
+         <a class="btn menu-right-btn border" type="submit" href="#"> Contact-Us</a>
          </div>
       </nav>
       <h1><center>ABOUT US</center></h1>
         <h2><center>ABOUT US</center></h2>
-      <center><img src="./img/ln8.jpg" alt="" class="img"></center> 
-      <h2><center>Hi guys</center></h2> 
+      <!-- <center><img src="./img/ln8.jpg" alt="" class="img"></center>  -->
+
+
+
+
+  <div class="w-75 h-5">
+        <div class="carousel slide" id="carouselExample" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              class="active"
+              data-target="#carouselExample"
+              data-slide-to="0"
+            ></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
+            <li data-target="#carouselExample" data-slide-to="3"></li>
+            <li data-target="#carouselExample" data-slide-to="4"></li>
+            <li data-target="#carouselExample" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/pit.jpg"
+                alt="image here"
+                class="d-block w-100 h-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/ln4.jpg"
+                alt="image here"
+                class="d-block w-100 h-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/t3.jpg"
+                alt="image here"
+                class="d-block w-100 h-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/pit1.jpg"
+                alt="image here"
+                class="d-block w-100 h-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/t1.jpg"
+                alt="image here"
+                class="d-block w-100 h-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/ln8.jpg"
+                alt="image here"
+                class="d-block w-100 h-100"
+              />
+            </div>
+          </div>
+
+          <!-- prevNext -->
+          <a
+            href="#carouselExample"
+            class="carousel-control-prev"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+
+          <!-- next -->
+          <a
+            href="#carouselExample"
+            class="carousel-control-next"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <h2><center>Hi Guys</center></h2> 
       
     </header>
     <p>

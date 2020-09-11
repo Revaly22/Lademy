@@ -31,12 +31,6 @@ body{
     color: white!important;
 }
 
-.menu-right-btn{
-    padding: 13px 46px;
-    margin-right: 4%;
-    background-color: rgb(34, 196, 236);
-    transition: all 300ms ease-in;
-}
 .menu-right-btn:hover{
 color: rgb(14, 92, 7);
 background-color: rgb(251, 249, 255);
@@ -60,7 +54,7 @@ background-color: rgb(251, 249, 255);
 .site-title{
     margin-top: 30%;
     margin-bottom: 6%;
-    font-style: 50px;
+    /* font-style: 50px; */
 }
 
 .site-btn1{
@@ -76,7 +70,7 @@ background-color: rgb(251, 249, 255);
 }
 
 .site-decs{
-    font-size: 14px;
+    font-size: 20px;
     padding-left: 0;
 }
 .site-btn1, .site-btn2{
@@ -94,7 +88,7 @@ background-color: rgb(251, 249, 255);
 
 .section-1 .para-1{
     width: 60%;
-    margin-left: 20%;
+    margin-left: 0;
     margin-bottom: 5%;
 }
 
@@ -178,14 +172,17 @@ background-color: rgb(251, 249, 255);
 .testmo{
     color: rgb(14, 92, 7);
     margin-top: 10rem;
-    text-decoration: underline; 
+    text-decoration: none; 
 }
 .btn1{
     background-color: rgb(235, 189, 41);
     color: rgb(14, 92, 7);
-    width: 18rem;
+    width: 10rem;
     height: 4rem;
     border-radius: 3rem;
+}
+.list{
+    display: flex;
 }
 
 .social i{
@@ -197,7 +194,7 @@ background-color: rgb(251, 249, 255);
     align-items: center;
     object-fit: cover;
     height: 40vh;
-    margin-right: 30rem;
+    /* margin-right: 30rem; */
     margin: 2rem;
 }
 .head{
@@ -212,19 +209,21 @@ footer{
 
 
 
- @media screen and (max-width: 760px){
-          .col-md-4{
-            display: grid;
-          }
-          .courses{
-              display: grid;
-              margin-bottom: 80rem;
-          }
-        .site-content{
-            display: grid;
-            align-items: center;
-        }
+ 
+ @media only screen and (max-width: 500px){
+     .courses{
+         display: grid;
+         margin-bottom: 80rem;
+     }
+ }
+
+    
+
+          
+            
+        
+
         
          
-        }
+        
         

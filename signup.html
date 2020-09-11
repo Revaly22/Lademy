@@ -12,10 +12,11 @@
     <title>info@cfs.com</title>
     <style>
 
-
+/* 
    input{
                width: 480px;
                height: 50px;
+               background: rgb(235, 189, 41);
            }
            .button{
                background-color:  rgb(14, 92, 7);
@@ -29,29 +30,143 @@
                height: 50px;
                font-size: larger;
            }
-           form{
+           /* form{
                background-color: rgb(235, 189, 41);
-               width: 480px;
+               width: 480px; */
 
-           }
-           #space{
+/* .form {
+  position: relative;
+  width: 400px;
+  padding: 40px 40px 60px;
+  justify-content: center;
+  /* background: #131419; */
+  /* background: rgb(235, 189, 41); 
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.5);
+}   */
+           
+           /* #space{
                height: 50px;
                width: 480px;
-           }
+               background: rgb(235, 189, 41);
+           } */
 
         h1{
             background-color: rgb(14, 92, 7);
             color: rgb(235, 189, 41);
             padding: rem;
-        }
+         } 
         h2{
             margin-top: 3rem;
         }
-        form{
-        margin-left: 40rem;
-        margin-top: 3rem;
-        
-        }
+      
+
+  /* .signup{
+    align-items: center;
+  } */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+  .signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  margin-top: 0px;
+  
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  padding: 40px 40px 60px;
+  justify-content: center;
+  /* background: #131419; */
+  background: rgb(235, 189, 41); 
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form h2 {
+  color: rgb(14, 92, 7);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px
+}
+
+.form .input {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.form .input .inputBox {
+  margin-top: 20px;
+}
+
+.form .input .inputBox label {
+  display: block;
+  color: #868686;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.form .input .inputBox input {
+  width: 100%;
+  height: 50px;
+  /* background: #131419; */
+  background: rgb(235, 189, 41);;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 18px;
+  /* color: #03a9f4; */
+  color:  rgb(14, 92, 7);
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.form .input .inputBox input[type="submit"]{
+  margin-top: 20px;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+   2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.form .input .inputBox input[type="submit"]:active{
+  /* color: #006c9c; */
+  color:  rgb(14, 92, 7);
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+  inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.form .input .inputBox input::placeholder{
+  color: #555;
+  font-size: 18px;
+}
+
+.forgot{
+  margin-top: 30px;
+  color: #555;
+}
+
+.forgot a{
+  color: #ff0047;
+}
+
+
+
         .testmo{
             margin-top: 3rem;
             margin-bottom: 3rem;
@@ -100,67 +215,66 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="./about.html">about</a>
+              <a class="nav-link" class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="#">sevirces</a>
+              <a class="nav-link" class="nav-link" href="#">Sevirces</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="#">contacts</a>
+              <a class="nav-link" class="nav-link" href="#">Contacts</a>
             </li>
               <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="./faqs.html">faqs</a>
+              <a class="nav-link" class="nav-link" href="./courses.html">Courses</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" class="nav-link" href="./courses.html">courses</a>
+              <a class="nav-link" class="nav-link" href="./faqs.html">Faqs</a>
             </li>
           </ul>
-          <a class="btn menu-right-btn border" type="submit" href="#"> contact-us</a>
+          <a class="btn menu-right-btn border" type="submit" href="#"> Contact-Us</a>
          </div>
       </nav>
       <h1><center>REGISTER HERE</center></h1>
       <h2><center>FILL IN THE FORM BELOW</center></h2>
-     
 
 
 
-       <form action=""> 
-      <label for="First Name">First Name</label>
-      <br />
-      <input placeholder="Your First Name" type="text" />
-      <br />
-      <label for="firstName">Last Name</label>
-      <br />
-      <input placeholder="Your Last Name" type="text" />
-      <br />
-      <label for="email">Email</label>
-      <br />
-      <input placeholder="enter your email adress" type="text" />
-      <br />
-       <label for="">Courses</label>
-       <br/>
-       <select name="" id="space">
-          <option value="">begginers course</option>
-          <option value="">intermediary course</option>
-          <option value="">advanced course</option>
-          <option value="">bussiness interaction course</option>
-      </select>
-      <br />
-       <label for="password">Password</label>
-      <br />
-      <input placeholder="enter password" type="text" />
-      <br />
-       <label for="confirm password">Confirm password</label>
-      <br />
-      <input placeholder="confirm password" type="text" />
-      <br />
-      
-        <br>
-        <input class="button" type="Submit" value="Submit">
-  </form> 
+
+<div class="signup">
+ <div class="form">
+      <h2>signup</h2>
+      <div class="input">
+        <div class="inputBox">
+          <label for="">Full Name</label>
+          <input type="text" name="" placeholder="enter your name">
+        </div>
+        <div class="inputBox">
+          <label for="">Email</label>
+          <input type="password" name="" placeholder="example@gmail.com">
+        </div>
+        <div class="inputBox">
+          <label for="">Course</label>
+          <input type="password" name="" placeholder="e.g beginners course">
+        </div>
+        <div class="inputBox">
+          <label for="">Password</label>
+          <input type="password" name="" placeholder="enter password">
+        </div>
+        <div class="inputBox">
+          <label for="">Confirm password</label>
+          <input type="password" name="" placeholder="******">
+        </div>
+        <div class="inputBox">
+          <input type="submit" name="" value="submit">
+        </div>
+      </div>
+      <p class="forgot">Need help? <a href="#">Click Here</a></p>
+    </div>
+</div>
+
+
 
     <h3 class="testmo"><center>Our happy customers</center></h3>
      
